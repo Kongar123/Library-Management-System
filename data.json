@@ -1,0 +1,64 @@
+{
+    "books": [
+        {
+            "ISBN": "9781234567891",
+            "Title": "Book 1",
+            "Author": "Ali",
+            "Copies": 2
+        },
+        {
+            "ISBN": "9781234567892",
+            "Title": "Book 2",
+            "Author": "Omar",
+            "Copies": 1
+        },
+        {
+            "ISBN": "9781234567893",
+            "Title": "Book 3",
+            "Author": "Fares",
+            "Copies": 2
+        }
+    ],
+    "members": [
+        {
+            "Member ID": 123,
+            "Name": "Khaled",
+            "Borrowed Books": []
+        },
+        {
+            "Member ID": 121,
+            "Name": "Zeyad",
+            "Borrowed Books": []
+        },
+        {
+            "Member ID": 122,
+            "Name": "Osama",
+            "Borrowed Books": [
+                "9781234567891"
+            ]
+        }
+    ],
+    "transactions": [
+        {
+            "Member ID": 123,
+            "ISBN": "9781234567892",
+            "Returned": "No",
+            "Date": "2024-08-21",
+            "Time": "13:39:49.582079"
+        },
+        {
+            "Member ID": 123,
+            "ISBN": "9781234567892",
+            "Returned": "Yes",
+            "Date": "2024-08-21",
+            "Time": "13:41:06.817529"
+        },
+        {
+            "Member ID": 122,
+            "ISBN": "9781234567891",
+            "Returned": "No",
+            "Date": "2024-08-21",
+            "Time": "13:41:54.215202"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+pip install prettytable
+pip install pyfiglet
+pip install cowsay
+pip install pytest
